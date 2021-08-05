@@ -1,0 +1,33 @@
+inputs
+    text
+    email
+    password
+    date
+    color
+    url
+    number
+    tel
+    
+
+    select
+
+atributos (encantamiento de input) (form imput, del label)
+    required
+    placeholder
+    value
+    method
+    action
+    maxlenght
+
+en generan los label es para enlazar dos elementos dentro de la interfaz de usuario, se usa muchos ne los botones
+y los span dentro de los elementos
+
+name es para enviar al servidor
+
+puede haber 3 iguales, o se confundira el backend,
+
+repaso:
+
+un formulario son un conjunto de controles, podemos poner cualquier dcosa email color url sexo, tiene ciertos controles que depende quien programa la pagina y esos controles tienen un tipo tipo password 
+
+dnetor de sos controles que sirve para inercambiar informacion con el usuario

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto o Login</title>
+  </head>
+  <body>
+    <h1>Ejemplo de formularios</h1>
+
+    <h2>Ejemplo de Login</h2>
+
+    <form action="#" method="GET">
+      <input
+        name="usuario"
+        type="email"
+        placeholder="Correo Electronico"
+        maxlength="35"
+        required
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Contraseña"
+        required
+      />
+      <button>Ingresá 😀</button>
+    </form>
+    <hr color="black" />
+    <h2>Registro :)</h2>
+    <form action="#" method="post">
+      <label for="nombre">Nombre *</label>
+      <br />
+      <input type="text" placeholder="nombre" maxlength="20" id="nombre" />
+      <br />
+      <label for="apellido">Apellido</label>
+      <br />
+      <input type="text" placeholder="Apellido" id="apellido" maxlength="30" />
+      <br />
+      <label for="correo">Correo *</label>
+      <br />
+      <input
+        type="email"
+        placeholder="correo@ejemplo.com"
+        id="correo"
+        maxlength="30"
+        required
+      />
+      <br />
+      <label for="nacimiento">Fecha de nacimiento</label>
+      <br />
+      <input type="date" name="Fecha de nacimiento" id="nacimiento" />
+      <br />
+      <label for="telefono">Tel.</label>
+      <br />
+      <input
+        type="tel"
+        name="telefono"
+        id="telefono"
+        placeholder="N. Teléfono"
+      />
+      <br />
+      <label for="color">Color favorito :D</label>
+      <br />
+      <input type="color" id="color" required />
+      <br />
+      <label for="nacionalidad">Nacionalidad</label>
+      <br />
+      <select name="" id="nacionalidad">
+        <option>Argentina</option>
+        <option>Brasil</option>
+        <option>Uruguay</option>
+        <option>Paraguay</option>
+        <option>Chile</option>
+        <option>Bolivia</option>
+        <option>Colombia</option>
+      </select>
+      <br />
+      <label for="mujer">Mujer</label>
+      <input type="radio" name="sexo" value="mujer" id="mujer" />
+      <label for="hombre">Hombre</label>
+      <input type="radio" name="sexo" value="hombre" id="hombre" />
+      <label for="personalizado">Personalizado</label>
+      <input
+        type="radio"
+        name="sexo"
+        value="personalizado"
+        id="personalizado"
+      />
+      <button>Registrate</button>
+      <hr color="black" />
+    </form>
+  </body>
+</html>

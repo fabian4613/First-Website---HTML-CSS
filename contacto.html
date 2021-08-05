@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link href="favicon/favicon-16x16.png" rel="icon" data-head-react="true" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <script
+      src="https://kit.fontawesome.com/13a33b19fd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <h1>Contactanos! 😀</h1>
+
+    <!-- Cuando hacemos un formulario (<form) debe tener 2 cosas obligatorias. (method= post) y (action="#url")-->
+
+    <form method="POST">
+      <label for="nombre_completo">Nombre completo *</label>
+      <input
+        autofocus
+        type="text"
+        id="nombre_completo"
+        placeholder="Nombre Completo"
+        required
+      />
+      <br />
+      <label for="asunto">Asunto *</label>
+      <input type="text" placeholder="Asunto" id="asunto" required />
+      <br />
+      <label for="correo">Correo *</label>
+      <input
+        type="email"
+        placeholder="Correo Electronico"
+        id="correo"
+        required
+      />
+      <br />
+      <label for="texto">Dejá tu mensaje</label>
+      <br />
+
+      <textarea
+        required
+        id="texto"
+        maxlength="100"
+        rows="10"
+        cols="40"
+        placeholder="Dejanos tu mensaje y te responderemos a la brevedad!"
+      ></textarea>
+      <button>Enviar</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <a href="https://www.instagram.com/varuz.indumentaria" target="_blank">
+      <i
+        class="fab fa-instagram fa-2x"
+        style="color: blueviolet; font-size: 42px"
+      ></i>
+    </a>
+    <i class="fab fa-facebook-messenger fa-2x"></i>
+    <i class="fab fa-linkedin-in fa-2x"></i>
+    <!-- https://fontawesome.com/ iconos gratuitos-->
+  </body>
+</html>

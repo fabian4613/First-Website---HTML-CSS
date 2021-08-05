@@ -1,0 +1,69 @@
+/* Css en proceso de aprendizaje */
+
+h1,
+h4 {
+   color: rgb(255, 255, 255);
+   font-size: 60px;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+}
+h4{
+    font-size: 24px;
+
+}
+
+
+header {
+
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.destacar01 {
+    color: gold;
+    background: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.rojo{
+
+    color: rgb(255, 20, 20);
+
+}
+.violeta{
+    color: rgb(226, 43, 211);
+
+}
+
+.destacar-parrafo{
+
+    font-weight: 900;
+
+}
+p > span {
+
+color: goldenrod;
+
+}
+
+
+.subrayar_arriba {
+
+    text-decoration: overline;
+    
+
+}
+
+.tachar {
+    text-decoration: line-through;
+
+}
+
+.subrayar {
+
+    text-decoration: underline;
+
+}
